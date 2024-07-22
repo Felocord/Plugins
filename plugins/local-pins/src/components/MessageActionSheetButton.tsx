@@ -1,4 +1,4 @@
-import { RedesignRow } from "@nexpid/vdp-shared";
+import { RedesignRow } from "@Felocord/vdp-shared";
 import { getAssetIDByName } from "@vendetta/ui/assets";
 import { showToast } from "@vendetta/ui/toasts";
 

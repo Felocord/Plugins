@@ -39,7 +39,7 @@ export function build(patches: Patches): ThemeDataWithPlus {
     description: "A Bunny theme with Material You theming.",
     authors: [
       {
-        name: "nexpid",
+        name: "Felocord",
         id: "853550207039832084",
       },
     ],

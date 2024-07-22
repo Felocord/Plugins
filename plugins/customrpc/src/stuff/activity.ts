@@ -204,7 +204,7 @@ export async function dispatchActivity(
   FluxDispatcher.dispatch({
     type: "LOCAL_ACTIVITY_UPDATE",
     activity: send,
-    socketId: `CustomRPC@Nexpid/Bunny`, // based on Last.fm plugin
+    socketId: `CustomRPC@Felocord/Bunny`, // based on Last.fm plugin
   });
 }
 

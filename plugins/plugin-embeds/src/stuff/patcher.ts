@@ -31,7 +31,7 @@ export default () => {
                 if (
                   [
                     constants.PROXY_PREFIX,
-                    "https://vendetta.nexpid.xyz/", // :3
+                    "https://vendetta.Felocord.xyz/", // :3
                     /^https?:\/\/\w+\.github\.io\//i,
                   ].some((x) =>
                     x instanceof RegExp

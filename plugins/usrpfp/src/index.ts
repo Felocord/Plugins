@@ -10,7 +10,7 @@ import patcher from "./stuff/patcher";
 
 export const dataURL = "https://userpfp.github.io/UserPFP/source/data.json";
 export const staticGifURL = (url: string) =>
-  `https://static-gif.nexpid.workers.dev/convert.gif?url=${encodeURIComponent(
+  `https://static-gif.Felocord.workers.dev/convert.gif?url=${encodeURIComponent(
     url,
   )}&_=${hash}`;
 

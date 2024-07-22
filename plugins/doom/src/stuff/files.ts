@@ -1,7 +1,7 @@
 import RNFS from "$/wrappers/RNFS";
 
 export const downloadSource =
-  "https://raw.githubusercontent.com/nexpid/VendettaDOOM/main/";
+  "https://raw.githubusercontent.com/Felocord/VendettaDOOM/main/";
 export const storePrefix = `vendetta/DOOM/`;
 
 export function existsFile(fileName: string) {

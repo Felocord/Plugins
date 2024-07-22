@@ -1,6 +1,6 @@
 export default {
   github: {
-    url: "https://github.com/nexpid/BunnyPlugins/",
-    raw: "https://raw.githubusercontent.com/nexpid/BunnyPlugins/main/",
+    url: "https://github.com/Felocord/Plugins/",
+    raw: "https://raw.githubusercontent.com/Felocord/Plugins/main/",
   },
 };

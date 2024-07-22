@@ -344,7 +344,7 @@ export default function () {
       <FloatingActionButton
         icon={getAssetIDByName("CircleQuestionIcon-primary")}
         positionBottom={16}
-        onPress={() => url.openURL("https://github.com/nexpid/ThemesPlus")}
+        onPress={() => url.openURL("https://github.com/Felocord/ThemesPlus")}
       />
     </RN.View>
   );

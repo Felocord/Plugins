@@ -49,13 +49,13 @@ export const useLangStore = zustand.create<
       },
     }),
     {
-      name: "nexpid-lang",
+      name: "Felocord-lang",
       storage: createJSONStorage(() => RNMMKVManager),
       partialize: (state) => ({
         values: state.values,
         lastModified: state.lastModified,
       }),
-      onRehydrateStorage: () => () => RNMMKVManager.removeItem("nexpid-lang"),
+      onRehydrateStorage: () => () => RNMMKVManager.removeItem("Felocord-lang"),
     },
   ),
 );

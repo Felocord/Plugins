@@ -50,7 +50,7 @@ export const sillyPacks = {
   discord: {
     title: "settings.emojipacks.choose.discord",
     format: (src) =>
-      `https://nexpid.github.io/DiscordEmojiPicker/assets/${src}.png`,
+      `https://Felocord.github.io/DiscordEmojiPicker/assets/${src}.png`,
     noVariation: true,
   },
 } satisfies Record<string, EmojiPack>;

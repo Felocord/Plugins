@@ -2,6 +2,6 @@
   "status": "finished",
   "proxied": true,
   "external": {
-    "backend": "VendettaCloudSync"
+    "backend": "CloudSync"
   }
 }

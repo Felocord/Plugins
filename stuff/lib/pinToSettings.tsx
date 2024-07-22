@@ -213,7 +213,7 @@ export function patchSettingsPin(
                   ancestorRendererData: rendererConfig[screenKey],
                   setting: screenKey,
                   title: () => you.title,
-                  breadcrumbs: ["Bunny", "Nexpid"],
+                  breadcrumbs: ["Bunny", "Felocord"],
                   icon: rendererConfig[screenKey].icon,
                 },
               ]
@@ -259,7 +259,7 @@ export function patchSettingsPin(
       patches.push(
         after("getSettingListSearchResultItems", gettersModule, (_, ret) => {
           for (const s of ret)
-            if (s.setting === screenKey) s.breadcrumbs = ["Bunny", "Nexpid"];
+            if (s.setting === screenKey) s.breadcrumbs = ["Bunny", "Felocord"];
         }),
       );
 

@@ -10,9 +10,9 @@ import { useLangStore } from "./LangStore";
 // from Pyoncord
 const IntlMessageFormat = findByName("MessageFormat");
 
-RNFS.exists(`${RNFS.DocumentDirectoryPath}/vendetta/NexpidLang`).then(
+RNFS.exists(`${RNFS.DocumentDirectoryPath}/vendetta/FelocordLang`).then(
   (yes) =>
-    yes && RNFS.unlink(`${RNFS.DocumentDirectoryPath}/vendetta/NexpidLang`),
+    yes && RNFS.unlink(`${RNFS.DocumentDirectoryPath}/vendetta/FelocordLang`),
 );
 
 export class Lang<Plugin extends keyof LangValues> {
@@ -22,7 +22,7 @@ export class Lang<Plugin extends keyof LangValues> {
 
   constructor(public plugin: Plugin) {
     useLangStore.persist.setOptions({
-      name: `nexpid-lang-${plugin}`,
+      name: `Felocord-lang-${plugin}`,
       onRehydrateStorage: () => (state) => state.update(this.plugin),
     });
     useLangStore.persist.rehydrate();

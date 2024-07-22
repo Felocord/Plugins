@@ -11,7 +11,7 @@ importers:
       '@material/material-color-utilities':
         specifier: ^0.2.7
         version: 0.2.7
-      '@nexpid/vdp-shared':
+      '@Felocord/vdp-shared':
         specifier: ^1.0.2
         version: 1.0.2(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(react@18.3.1))(react@18.3.1)
       '@rollup/plugin-commonjs':
@@ -1051,7 +1051,7 @@ packages:
   '@material/material-color-utilities@0.2.7':
     resolution: {integrity: sha512-0FCeqG6WvK4/Cc06F/xXMd/pv4FeisI0c1tUpBbfhA2n9Y8eZEv4Karjbmf2ZqQCPUWMrGp8A571tCjizxoTiQ==}
 
-  '@nexpid/vdp-shared@1.0.2':
+  '@Felocord/vdp-shared@1.0.2':
     resolution: {integrity: sha512-cUU4Iu8cWjbl42v/1dxIp3hhAZ1lyTxBjFw1WViGCTIOB60YDJ4LKw6D910TVgWv/3fAh3CUgWkyCsamRLWsng==}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -4464,7 +4464,7 @@ snapshots:
 
   '@material/material-color-utilities@0.2.7': {}
 
-  '@nexpid/vdp-shared@1.0.2(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(react@18.3.1))(react@18.3.1)':
+  '@Felocord/vdp-shared@1.0.2(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(react@18.3.1))(react@18.3.1)':
     dependencies:
       vendetta-types: 2.4.21(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:

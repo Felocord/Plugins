@@ -7,7 +7,7 @@ import { storage } from "@vendetta/plugin";
 import App from "./components/App";
 
 export const assetsURL =
-  "https://raw.githubusercontent.com/nexpid/VendettaDOOM/main/";
+  "https://raw.githubusercontent.com/Felocord/VendettaDOOM/main/";
 
 export function newGameSuggestionURL() {
   const user = UserStore.getCurrentUser();
@@ -20,7 +20,7 @@ export function newGameSuggestionURL() {
       user.discriminator !== "0" ? `#${user.discriminator}` : ""
     }`,
   });
-  return `https://github.com/nexpid/VendettaDOOM/issues/new?${params}`;
+  return `https://github.com/Felocord/VendettaDOOM/issues/new?${params}`;
 }
 
 export const vstorage = storage as {

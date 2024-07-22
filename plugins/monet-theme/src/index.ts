@@ -13,12 +13,12 @@ import { parse } from "./stuff/jsoncParser";
 import { Patches } from "./types";
 
 export const patchesURL = () =>
-  `https://raw.githubusercontent.com/nexpid/VendettaMonetTheme/${
+  `https://raw.githubusercontent.com/Felocord/VendettaMonetTheme/${
     vstorage.patches.commit ?? "main"
   }/patches.jsonc`;
 export const devPatchesURL = "http://192.168.2.22:8730/patches.jsonc";
 export const commitsURL =
-  "https://api.github.com/repos/nexpid/VendettaMonetTheme/commits?path=patches.jsonc";
+  "https://api.github.com/repos/Felocord/VendettaMonetTheme/commits?path=patches.jsonc";
 
 const ThemeStore = findByStoreName("ThemeStore");
 
