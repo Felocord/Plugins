@@ -134,7 +134,7 @@ jobs:
       - name: Checkout pages repository
         uses: actions/checkout@v4
         with:
-          repository: nexpid/BunnyPlugins-dev-pages
+          repository: Felocord/Plugins-dev-pages
           path: devpages
           token: ${{ secrets.DEV_PAGES_TOKEN }}
 
@@ -156,7 +156,7 @@ jobs:
           mv devpages-tmp/.git devpages/.git
           rm -rf devpages-tmp
 
-          grep -rl 'https://bunny.nexpid.xyz' devpages/. | xargs -I '{}' sed -i -e 's/https:\/\/bunny.nexpid.xyz/https:\/\/dev.bunny.nexpid.xyz/g' {}
+          grep -rl 'https://cord.felo.gg' devpages/. | xargs -I '{}' sed -i -e 's/https:\/\/cord.felo.gg/https:\/\/dev.cord.felo.gg/g' {}
 
       - name: Deploy to GitHub pages
         working-directory: devpages
