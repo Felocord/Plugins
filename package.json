@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@material/material-color-utilities": "^0.2.7",
-    "@Felocord/vdp-shared": "^1.0.2",
+    "@nexpid/vdp-shared": "^1.0.2",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@swc/core": "^1.5.3",
