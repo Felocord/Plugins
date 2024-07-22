@@ -11,7 +11,7 @@ const NotFound = (prop: string, isFunction?: boolean) => () => {
   React.useEffect(() => {
     showToast(`${prop} not found! Search for PNF in Debug Logs!`);
     console.warn(
-      `!! PNF ERROR !!\nMissing the redesign ${isFunction ? "function" : "component"}: ${prop}. Please bug @Felocord about this on Discord!`,
+      `!! PNF ERROR !!\nMissing the redesign ${isFunction ? "function" : "component"}: ${prop}. Please bug @nexpid about this on Discord!`,
     );
   }, []);
   return null;
