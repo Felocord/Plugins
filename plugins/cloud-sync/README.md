@@ -13,7 +13,7 @@
   <a href="https://bunny.Felocord.xyz/cloud-sync">
     <img alt="copy_link" src="https://img.shields.io/badge/copy_link-24273a?style=for-the-badge" />
   </a>
-  <a href="https://github.com/Felocord/VendettaCloudSync">
+  <a href="https://github.com/Felocord/CloudSync">
     <img alt="view_backend_code" src="https://img.shields.io/badge/view_backend_code-24273a?style=for-the-badge" />
   </a>
 </div>
